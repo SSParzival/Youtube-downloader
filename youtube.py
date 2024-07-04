@@ -10,7 +10,10 @@ OUTPUT_DIR = r"INSERT_YOUR_OUTPUT_DIR_HERE"
 FILE_TYPE = "mp4"  # or 'mp3', depending on what you want to download
 
 # Define your URLs here in a single list, can be a mix of single videos and playlists.
-URLS = ["https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw"]
+URLS = [
+    "https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw",
+    "https://www.youtube.com/watch?v=9bZkp7q19f0",
+]
 
 
 class Youtube:
